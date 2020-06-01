@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>timas</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Amatic+SC|Caveat|Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/timao.css" />
+  </head>
+  <body>
+    
+     
+     <header>
+      <h1>Gaviões</h1>
+      <nav>
+        <ul>
+          <li><a href="TIMÂO.html"> historia </a></li>
+         
+          <li><a href="loja.html"> loja </a></li>
+          <li><a href="contato.html"> Contato</a></li>
+          <li><a href="localizacao.html"> Localização</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- A estrutura da área main fica reservada ao conteúdo das páginas expecíficas -->
+    <main>
+      <h2>Contato</h2>
+      
+      <form action="confirmacao.html">
+
+     <label> nome* </label>
+     <input type="text" name="nome" placeholder="Nome Completo" required>
+
+    <label> E-Mail *</label>
+    <input type="email" name="email" placeholder="exemplo@dominio.com.br" required>
+
+
+    <label> Telefone *</label>
+    <input type="tel" name="telefone" placeholder="+55 11 5555-5555" required>
+
+    <label> Sexo *</label>
+    <snap id="sexo">
+      <input type="radio" name="sexo" value="Masculino"> Masculino
+      <input type="radio" name="sexo" value="Feminino"> Feminino
+      <input type="radio" name="sexo" value="aliengina"> Aliengina
+    </snap>
+
+     <select name="assunto">
+       <option value="Selecione">Selecione</option>
+       <option value="Elogio">Elogio</option>
+       <option value="sugestão">sugestão</option>
+       <option value="Reclamação">Reclamação</option>
+       <option value="Problema">Problema</option>
+     </select>
+    
+     <label> Mensagem</label>
+     <textarea name="mensagem"></textarea>
+
+     <span id="check"><input type="checkbox" name="newsletter">
+    desejo receber mensagens e noticias sobre promoções e eventos em meu e-mail e telefone.
+    </span>
+ 
+
+
+     <input type="submit" value="Enviar">
+    
+
+
+
+
+      </form>
+      
+      <div>
+        
+
+
+
+
+    </main>
+
+    <!-- 
+        Criação da área do rodapé com comando footer. Esta área se destina 
+        a exibição do endereço, email, telefone e redes sociais
+     -->
+
+    <footer>
+      <div id="contato">
+        Av. Miguel Ignácio Curi, 111 - Artur Alvim, São Paulo - SP, 08295-005<br />
+        <a href="Sport Club Corinthians Paulista © 2020"
+          >contato@timao</a
+        ><br />
+        Tel: 11 - 2020 - 4231 | 3245 - 7562
+      </div>
+      <div id="redes">
+        <ul>
+          <li>
+            <a href="http://www.facebook.com" target="_blank">
+              <img src="img/facebook.png" alt="Rede social facebook" />
+            </a>
+          </li>
+          <li>
+            <a href="http://www.instagram.com" target="_blank">
+              <img src="img/instagram.png" alt="Rede social instagram" />
+            </a>
+          </li>
+          <li>
+            <a href="http://www.twitter.com" target="_blank">
+              <img src="img/twitter.png" alt="Rede social instagram" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
