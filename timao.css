@@ -1,0 +1,247 @@
+* {
+  margin: 0; 
+  padding: 0; 
+}
+header {
+  
+  background-image: url("../img/carrossel-balanco-financeiro-serie-a-corinthians.jpg");
+  height: 200px;
+  background-position: 0px -90px;
+  height: 300px;
+  transition: ease 5s;
+ 
+}
+
+h1 {
+  color: rgb(255, 0, 0);
+  text-align: center; 
+  font-family: "Anton"; 
+  font-size: 50pt; 
+  padding-top: 90px;
+  text-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+nav ul li {
+ 
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px; 
+}
+
+nav {
+  text-align: center; 
+  margin-top: 91px;
+  background-color: rgba(14, 13, 13, 0.8);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+nav ul li a {
+  color: rgb(255, 0, 0);
+  
+  text-decoration: none;
+  font-family: "Anton";
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  color: rgb(200, 0, 0);
+  font-family: "Anton";
+  padding-top: 20px;
+  font-weight: bold;
+}
+div ul li {
+  /* () <div id= "nome do link HTML"</div> ) permite criar uma tag de  identificação especifica para aplicar regras css individuais -->*/
+  /* Altera os links redes sociais para o centro */
+  display: inline-block;
+}
+
+div a {
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+}
+
+main {
+  
+
+  padding: 20px;
+}
+
+h2 {
+  
+  font-family: Anton;
+  color: rgb(255, 5, 5);
+  font-size: 20pt;
+  border-bottom: 4px double rgb(255, 0, 0);
+  margin-left: 15px; 
+  padding-left: 600px; 
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-family: Anton;
+  margin-left: 70px;
+  font-size: 15pt;
+  margin-bottom: 30px;
+  letter-spacing: 3px;
+}
+
+p {
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: justify;
+
+ 
+
+  line-height: 30px;
+  margin-bottom: 30px;
+  font-family: Anton;
+  font-size: 13pt;
+}
+#timão {
+ 
+  text-align: center; 
+}
+
+#home img {
+  
+  height: 400px;
+  width: 400px;
+  margin: 10px;
+
+  
+  opacity: 0.5; 
+  border-radius: 10%; 
+
+  transition: ease 2s; 
+}
+
+#home img:hover {
+  
+  opacity: 1;
+  transform: scale(1.2);
+  cursor: pointer;
+  transform: rotate(
+    360deg
+  ); 
+
+
+  
+}
+
+#acafeteria {
+  text-align: center;
+}
+#acafeteria img {
+  width: 500px;
+  height: 400px;
+}
+
+#video {
+  text-align: center;
+}
+
+
+
+
+#container {
+  display: inline-block;
+  border-bottom: 1px solid silver; 
+  margin-bottom: 50px; 
+  padding-bottom: 50px; 
+  box-shadow: 0px 5px 10px silver;
+}
+
+#linha {
+  
+  display: table;
+  width: 80;
+  margin-left: auto;
+  margin-right: auto;
+}
+#imagem img {
+  
+  width: 200px;
+  height: 200px;
+}
+#imagem {
+  width: 200px;
+  height: 200px;
+
+  
+  float: left;
+}
+
+#texto {
+  padding: 20px;
+  width: 80%;
+  float: left;
+}
+form {
+  
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+label {
+  
+  display: block;
+  
+  font-weight: bold;
+  color: black;
+  /*uso pra font e a cor*/
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="sexo"],
+input[type="mensagem"] {
+  width: 98%;
+  padding: 10px;
+  margin-bottom: 15px;
+  /*border: 0;*/
+  /*border-bottom: 1px solid silver;*/
+  border-radius: 10px;
+}
+
+input[type="tel"] {
+  width: 10%;
+}
+#sexo {
+  display: block;
+  margin-bottom: 15px;
+}
+select {
+  padding: 10px;
+  width: 20%;
+}
+select.option:hover {
+  background-color: rgb(100, 0, 0);
+  color: rgb(14, 14, 14);
+  cursor: pointer;
+  padding: 5px;
+}
+textarea {
+  width: 60%;
+  height: 300px;
+  display: block;
+  margin-bottom: 15pt;
+}
+
+input[type="submit"] {
+  display: block;
+  border: 0;
+  color: black;
+  padding: 10px;
+  background-color: rgb black;
+  cursor: pointer;
+  box-shadow: 0 10px 10px black;
+}
